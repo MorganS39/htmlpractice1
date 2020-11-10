@@ -8,3 +8,7 @@ p {
     font-size: 16px;
     font-family: monospace;
 }
+
+.img-size {
+    width: 500px;
+}
