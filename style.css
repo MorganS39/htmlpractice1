@@ -12,3 +12,9 @@ p {
 .img-size {
     width: 500px;
 }
+
+.img-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+}
