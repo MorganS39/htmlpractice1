@@ -30,6 +30,29 @@
                     <li>cucumbers</li>
                 </ol>
             </div>
+            <div>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <label for="indoor">
+                        <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor
+                    </label>
+                    <label for="outdoor">
+                        <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor
+                    </label><br>
+
+                    <label for="loving">
+                        <input id="loving" type="checkbox" name="personality" value="loving" checked> Loving
+                    </label>
+                    <label for="mean">
+                        <input id="mean" type="checkbox" name="personality" value="mean"> Mean
+                    </label>
+                    <label for="hyper">
+                        <input id="hyper" type="checkbox" name="personality" value="hyper"> Hyper
+                    </label><br>
+
+                    <input type="text" placeholder="cat photo URL" required>
+                        <button type="submit">Submit</button>
+                </form>
+            </div>
         </main>
     </body>
 </html>
